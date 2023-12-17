@@ -1,0 +1,47 @@
+.instructionsContainer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 5rem;
+  width: 40%;
+}
+
+.heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.instructions{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 2.3rem;
+}
+
+.points{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 950px) {
+  .instructionsContainer{
+    width: 40%;
+    margin-left: 2rem;
+  }
+
+  .heading{
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+  .instructions{
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .instructionsContainer{
+    width: 90%;
+    margin-left: 2rem;
+  }
+}
