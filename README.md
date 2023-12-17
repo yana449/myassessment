@@ -2,4 +2,4 @@
 
 ## Deployments:
 Backend: `Railway`
-FrontendL `Vercel` - [Link]{https://myassessment-nine.vercel.app/}
+Frontend: `Vercel` - {Link}[https://myassessment-nine.vercel.app/]
