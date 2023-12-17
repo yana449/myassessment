@@ -39,7 +39,7 @@ const FormContainer = () => {
     setModal(true);
     
     // Send a POST request with formData
-    fetch('https://flexmoneybackend-production.up.railway.app/api/submit', {
+    fetch('https://myassessment-production.up.railway.app/api/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
