@@ -111,7 +111,7 @@ const FormContainer = () => {
 
   const handleDBSubmit = () => {
     // Send a POST request with formData
-    fetch('http://localhost:5000/api/submit', {
+    fetch(uri+'/api/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
