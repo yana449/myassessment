@@ -5,6 +5,8 @@ import toast from 'react-hot-toast';
 
 import { TailSpin } from  'react-loader-spinner'
 
+const uri = process.env.REACT_APP_SERVER_URL || "http://localhost:5000"
+
 const FormContainer = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -46,7 +48,7 @@ const FormContainer = () => {
     const receiptId = "qwsaq1";
   
     const paymentHandler = async (e) => {
-      const response = await fetch("http://localhost:3001/api/payment", {
+      const response = await fetch(uri+"/api/payment", {
         method: "POST",
         body: JSON.stringify({
           amount,
@@ -61,7 +63,7 @@ const FormContainer = () => {
       //console.log(order);
   
       var options = {
-        key: "rzp_test_BPQWsfR900vwO6",
+        key: process.env.REACT_APP_RAZORPAY_API_KEY,
         amount,
         currency,
         name: "Yoga Classes",
@@ -73,7 +75,7 @@ const FormContainer = () => {
           };
   
           const validateRes = await fetch(
-            "http://localhost:3001/api/validate",
+            uri+"/api/validate",
             {
               method: "POST",
               body: JSON.stringify(body),
@@ -109,7 +111,7 @@ const FormContainer = () => {
 
   const handleDBSubmit = () => {
     // Send a POST request with formData
-    fetch('http://localhost:3001/api/submit', {
+    fetch('http://localhost:5000/api/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

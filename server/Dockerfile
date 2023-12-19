@@ -1,4 +1,4 @@
-FROM node:14-slim
+FROM node:18-slim
 
 WORKDIR /usr/src/server
 
@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3001
+EXPOSE 5000
 
 CMD [ "npm", "start" ]
