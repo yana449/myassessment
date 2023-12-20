@@ -37,15 +37,25 @@ Returns a JSON response indicating the success or failure of the form submission
 ## ER Diagram:
 
 +------------------+
+
 |      User        |
+
 +------------------+
+
 | id (PK)          |
+
 | name             |
+
 | age              |
+
 | phoneNumber      |
+
 | batch            |
+
 | paymentStatus    |
+
 | paymentDate      |
+
 +------------------+
 
 
