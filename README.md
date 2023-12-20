@@ -1,4 +1,4 @@
-
+![Blank diagram (9)](https://github.com/yana449/myassessment/assets/77925020/bb5aafb7-0046-48de-bb07-1eca13a0b7c4)
 # Yoga Classes - Flexmoney Assessment
 
 ### Docker Container Deployment on AWS EC2 Instance
@@ -35,28 +35,9 @@ Returns a JSON response indicating the success or failure of the form submission
 - Responds with a success message and the order and payment IDs if the transaction is legitimate; otherwise, returns an error response with a 400 status.
 
 ## ER Diagram:
+![Blank diagram (9)](https://github.com/yana449/myassessment/assets/77925020/8c6d4d84-89b2-4556-8b7b-1bc2b1100f27)
 
-+------------------+
 
-|      User        |
-
-+------------------+
-
-| id (PK)          |
-
-| name             |
-
-| age              |
-
-| phoneNumber      |
-
-| batch            |
-
-| paymentStatus    |
-
-| paymentDate      |
-
-+------------------+
 
 
 
