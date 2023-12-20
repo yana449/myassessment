@@ -1,4 +1,3 @@
-![Blank diagram (9)](https://github.com/yana449/myassessment/assets/77925020/bb5aafb7-0046-48de-bb07-1eca13a0b7c4)
 # Yoga Classes - Flexmoney Assessment
 
 ### Docker Container Deployment on AWS EC2 Instance
