@@ -2,7 +2,7 @@
 # Yoga Classes - Flexmoney Assessment
 
 ### Docker Container Deployment on AWS EC2 Instance
-Link: `http://3.26.56.103:3000`
+Link: `http://ec2-13-211-29-253.ap-southeast-2.compute.amazonaws.com:3000/`
 
 ### Vercel and Railway Deployment
 - Frontend Deployment on Vercel: `https://yogaclassess-flexmoney.vercel.app`
