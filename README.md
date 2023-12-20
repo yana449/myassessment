@@ -34,4 +34,19 @@ Returns a JSON response indicating the success or failure of the form submission
 - Utilizes cryptographic hashing to ensure the integrity of the transaction data.
 - Responds with a success message and the order and payment IDs if the transaction is legitimate; otherwise, returns an error response with a 400 status.
 
+## ER Diagram:
+
++------------------+
+|      User        |
++------------------+
+| id (PK)          |
+| name             |
+| age              |
+| phoneNumber      |
+| batch            |
+| paymentStatus    |
+| paymentDate      |
++------------------+
+
+
 
