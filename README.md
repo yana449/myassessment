@@ -27,6 +27,7 @@ Returns a JSON response indicating the success or failure of the form submission
 - Utilizes the Razorpay API to create a payment order based on the provided options.
 - Returns the created order details as a JSON response.
 - Handles errors and responds with a 500 status if there are any issues in the payment initiation process.
+
 `/api/validate` :
 - Listens for POST requests to validate Razorpay payment.
 - Verifies the legitimacy of the transaction using the provided Razorpay order ID, payment ID, and signature.
