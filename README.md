@@ -34,7 +34,8 @@ Returns a JSON response indicating the success or failure of the form submission
 - Responds with a success message and the order and payment IDs if the transaction is legitimate; otherwise, returns an error response with a 400 status.
 
 ## ER Diagram:
-![Blank diagram (10)](https://github.com/yana449/myassessment/assets/77925020/5effc9e0-ea95-45df-9560-21963228a9f8)
+![Blank diagram (11)](https://github.com/yana449/myassessment/assets/77925020/4f844c3c-66f3-4f5e-a97f-7359c54102d3)
+
 
 
 
